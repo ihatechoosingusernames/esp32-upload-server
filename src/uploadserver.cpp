@@ -17,7 +17,7 @@ UploadServer::UploadServer() : server(80) {
 
   // Turning on WiFi AP
   WiFi.mode(WIFI_MODE_AP);
-  WiFi.softAP("EUC-Speedo");
+  WiFi.softAP("Firmware-Upload");
   server.begin();
 }
 
